@@ -1,8 +1,16 @@
+import About from "./Components/About"
+import Footer from "./Components/Footer"
+import Hero from "./Components/Hero"
+import Reviews from "./Components/Reviews"
+
 const App = () => {
   return (
-    <h1 className="text-3xl text-center my-40 font-bold uppercase">
-      Coffee shop app
-    </h1>
+    <main className="">
+      <Hero />
+      <About />
+      <Reviews />
+      <Footer />
+    </main>
   )
 }
 
